@@ -8,35 +8,6 @@
 
 An experimental project to train agents for **automated car parking** using **Reinforcement Learning (RL)**.  
 
-## 📂 Project Structure
-
-APA/
-│
-├── env/
-│ ├── car_parking_env.py # 1D discrete parking
-│ ├── car_parking_obstacle_env.py # 2D with obstacles (continuous)
-│ ├── car_parking_2D_env.py # 2D with obstacles (discrete)
-│
-├── algo/
-│ ├── qlearning_obstacle.py
-│ ├── dqn_parking.py 
-| |__ qlearning.py
-| |__ qlearning2D.py
-│ ├── ppo_parking_obstacle.py
-│
-├── test/
-│ ├── test_agent.py
-│ ├── test_agent_dqn.py
-│ ├── test_agent_ppo_obstacle.py
-│
-├── results/
-│ ├── plots/ # Training reward curves
-│ ├── videos/ # Episode recordings (.mp4, .gif)
-│ └── tensorboard/ # PPO training logs
-│
-├── requirements.txt
-└── README.md
-
 
 # Credits
 
