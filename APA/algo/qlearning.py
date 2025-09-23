@@ -17,8 +17,6 @@ episodes = 500
 
 episode_rewards = []
 
-episode_rewards = []
-
 for ep in range(episodes):
     state, _ = env.reset()
     state = int(state[0])
@@ -56,4 +54,5 @@ plt.title("Q-learning Rewards over Episodes (Parking1DEnv)")
 plt.legend()
 plt.grid(True)
 plt.show()
+
 
