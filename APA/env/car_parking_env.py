@@ -23,7 +23,7 @@ class parking1dEnv(gym.Env):
         self.steps += 1
         if action == 0 and self.current_pos > 0:
             self.current_pos -= 1
-        elif action == 0 and self.current_pos < 10:
+        elif action == 1 and self.current_pos < 10:
             self.current_pos += 1
         
 
@@ -37,6 +37,7 @@ class parking1dEnv(gym.Env):
 
     def render(self):
         print(f"Car at position {self.current_pos}, Target at {self.target}")
+
 
 
 
